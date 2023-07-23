@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:first_app/home_text_widget.dart';
+
+import 'dice_roller.dart';
+// import 'package:first_app/home_text_widget.dart';
 
 const startAlignment = Alignment.topCenter;
 const endAlignment = Alignment.bottomRight;
@@ -31,7 +33,7 @@ class GradientContainer extends StatelessWidget {
           ),
           color: Colors.white60),
       child: Center(
-        child: HomeText(welcomeText),
+        child: DiceRoller(),
       ),
     );
   }
